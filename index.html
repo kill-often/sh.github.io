@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="webfonts/fa-brands-400.ttf">
+  <title>Personal Portfolio</title>
+</head>
+<body class="bg-light">
+  <!-- navbar start -->
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">Shahnawaz C.V</a>
+      <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle btn-danger ox-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa_bars"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a></li>
+          <li><a class="dropdown-item" href="#Services">Services</a></li>
+          <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+          <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+       
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- home section start -->
+  <section class="home py-5" id="home">
+    <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="home-img text-center">
+            <img src="Port.jpeg" alt="profile img" class="rouded-circle mw-100" width="250px">
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="home-text">
+            <p class="text-muted mb-1">Hello I'm</p>
+            <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Designer</h1>
+            <h2 class="fs-4">Shahnawaz Shaikh</h2>
+            <p class="mt-4 text-muted">Self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.
+            </p>
+            <a href="#portfolio" class="btn btn-danger">My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- home section start -->
+
+  <!-- about section start -->
+  <section class="about py-5" id="about">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">About Me</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-text">
+            <h3 class="fs-4 mb-3">This is about me </h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur quae illum?</p>
+          </div>
+          <div class="row text-center text-uppercase my-3"">
+            <div class="col-sm-4">
+              <div class="fact-item">
+                <h4 class="fs-1 fw-bold">100</h4>
+                <p class="text-muted">Project Completed</p>
+              </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">90</h4>
+                  <p class="text-muted">Happy clients</p>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="fact-item">
+                    <h4 class="fs-1 fw-bold">95</h4>
+                    <p class="text-muted">Positive Reviews</p>
+                  </div>
+                  </div>
+            </div>
+          <div class="row">
+            <div class="col-lg-12 d-flex align-items-center">
+              <a href="#" class="btn px-3 btn-danger me-5">Download CV</a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook mx-3" viewBox="0 0 16 16"><a href="https://www.facebook.com/login/">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></a>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16"><a href="https://www.instagram.com/">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x mx-3" viewBox="0 0 16 16"><a href="https://twitter.com/i/flow/login">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg></a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin mx-0" viewBox="0 0 16 16"><a href="https://www.linkedin.com/home">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/></a>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">HTML</h3>
+            <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">CSS</h3>
+            <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">JavaScript</h3>
+            <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">DOM</h3>
+            <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">jQuery</h3>
+            <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">Boostrap</h3>
+            <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item mb-4">
+            <h3 class="fs-6">ReactJs</h3>
+            <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- service section start -->
+    <section class="Services bg-white py-5" id="Services">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="fs-5 py-2">Web Development</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga corporis laboriosam excepturi?</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-lighbulb"></i>
+              </div>
+              <h3 class="fs-5 py-2">Creative Design</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga corporis laboriosam excepturi?</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-image"></i>
+              </div>
+              <h3 class="fs-5 py-2">Responsive Website</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga corporis laboriosam excepturi?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  <!-- service section end -->
+
+  <!-- portfolio start -->
+
+  <section class="portfolio">
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Latest works</h2>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="https://www.mytechblog.net/wp-content/uploads/2021/12/TeamStr.png" class="w-100 img-thumbnail" alt="portfolio item">
+          <h3 class="text-capitalize fs-5 my-2">team section</h3>
+          <p><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYcx_ARa6liPYNzpuzxmmA5ydVBEAYa-PH7A&usqp=CAU" class="w-100 img-thumbnail" alt="portfolio item">
+          <h3 class="text-capitalize fs-5 my-2">app landing page</h3>
+          <p><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiax8TujgGkp0WIzdcsWzSGnj30iZXUYBJiR3IPTGsoK1iU1jts3ZPrhzL8SQ5hudGqWc&usqp=CAU" class="w-100 img-thumbnail" alt="portfolio item">
+          <h3 class="text-capitalize fs-5 my-2">creative team section</h3>
+          <p><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="https://i.ytimg.com/vi/o1eY1MPcRQs/maxresdefault.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+          <h3 class="text-capitalize fs-5 my-2">toggle pricing table</h3>
+          <p><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="https://cdn.cssauthor.com/wp-content/uploads/2023/06/Bootstrap-Image-Gallery-with-Thumbnails.jpg?strip=all&lossy=1&resize=1000%2C500&ssl=1" class="w-100 img-thumbnail" alt="portfolio item">
+          <h3 class="text-capitalize fs-5 my-2">bootstrap 5 images gallery</h3>
+          <p><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item">
+          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--o4QEmvql--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ycvy5adhk9ytlms5f7o7.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+          <h3 class="text-capitalize fs-5 my-2">filterable image gallery</h3>
+          <p><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- portfolio end -->
+
+  <!-- freelancer availble section start -->
+  <section class="freelancer-available py-5 bg-danger">
+    <div class="container-lg py-4">
+      <div class=" row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <p class="text-light fs-5">Do you have any project ?</p>
+          <h2 class="fs-1 text-white mb-4">I'm Available for Freelancer Projects</h2>
+          <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- freelancer availble section end -->
+
+  <!-- testimonial section start -->
+  <section class="testimonials py-5" id="testimonial">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Testimonials</h2>
+          </div>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+            <!-- test item start -->
+            <div class="testi-item bg-white shadow-sm rounded p-4">
+              <div class="testi-author-info d-flex align-items-center">
+                <img src="Port.jpeg" class="img-thumbnail rounded-circle" width="100px" alt="author img">
+                <div class="author ms-3">
+                  <h3 class="fs-6 mb-1">Shahnawaz Shaikh</h3>
+                  <p class="text-muted m-0">Fresher</p>
+                  </div>
+                  </div>  
+                  <p class="text-muted mt-3">Fresher seeking to make a career in front-end development</p>
+                  <div class="rating text-danger">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <!-- test item end -->
+            </div>
+          </div>
+        </div>
+ 
+  </section>
+  <!-- testimonial section end -->
+
+  <!-- contact section start -->
+  <section class="contact py-5" id="contact">
+    <div class="container-lg py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center">
+            <h2 class="fw-bold mb-5">Contact Me</h2>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="contact-item d-flex">
+          <div class="icon fs-4 text-danger">
+            <i class="fas fa-envelope"></i>
+      </div>
+      <div class="text ms-3">
+        <h3 class="fs-5">Email</h3>
+        <p class="text-muted">shahnawaz.developer06@gmail.com</p>
+        </div>
+        </div>
+        <div class="contact-item d-flex">
+          <div class="icon fs-4 text-danger">
+            <i class="fas fa-phone"></i>
+      </div>
+      <div class="text ms-3">
+        <h3 class="fs-5">Phone</h3>
+        <p class="text-muted">+91 7506439743</p>
+        </div>
+        </div>
+        <div class="contact-item d-flex">
+          <div class="icon fs-4 text-danger">
+            <i class="fas fa-map-marker-alt"></i>
+      </div>
+      <div class="text ms-3">
+        <h3 class="fs-5">Address</h3>
+        <p class="text-muted">Sakinaka Andheri(East)</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="contact-form">
+          <form class="was-validated">
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <input type="text" class="form-control-lg fs-6 border-0 shadow-sm" placeholder="Your Name" required>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback">Please fill out the field</div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <input type="text" class="form-control-lg fs-6 border-0 shadow-sm" placeholder="Your Email" required>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback">Please fill out the field</div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 mb-4">
+                  <input type="text" class="form-control-lg fs-6 border-0 shadow-sm" placeholder="Subject" required>
+                  <div class="valid-feedback">Valid</div>
+                  <div class="invalid-feedback">Please fill out the subject</div>
+                </div>
+              </div>
+                <div class="col-lg-12 mb-4">
+                  <textarea rows="5" class="form-control-lg fs-6 border-0 shadow-sm" placeholder="Your Message"></textarea> 
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <button type="submit" class="btn btn-danger px-3">Send Message</button>
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- contact section end -->
+  <!-- footer start -->
+  <footer class="footer border-top py-4 bg-dark">
+    <div class="container-lg ">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="m-0 text-center text-white">&copy; 2024 Shahnawaz Shaikh</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+<div>
+</div>
+</body>
+</html>
